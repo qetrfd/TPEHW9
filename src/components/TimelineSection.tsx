@@ -57,16 +57,19 @@ const milestones = [
 
 export function TimelineSection() {
   return (
-    <section id="timeline" className="relative overflow-hidden px-5 py-24 sm:px-8 lg:px-12">
+    <section id="timeline" className="relative overflow-hidden px-5 py-28 sm:px-8 lg:px-12">
       <div
-        className="pointer-events-none absolute inset-0 opacity-18"
+        className="pointer-events-none absolute inset-0 opacity-16"
         style={{
           backgroundImage: `url(${redThread})`,
-          backgroundSize: 'cover',
+          backgroundSize: '130% auto',
+          backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           transform: 'translateY(calc(var(--scroll-y, 0px) * 0.03))',
         }}
       />
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-ink via-ink/65 to-transparent" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-ink via-ink/78 to-transparent" />
       <div className="mx-auto max-w-7xl">
         <Reveal>
           <SectionHeader
@@ -76,7 +79,7 @@ export function TimelineSection() {
             align="center"
           />
         </Reveal>
-        <div className="relative mt-14">
+        <div className="relative mt-16">
           <div className="absolute left-[1.35rem] top-0 hidden h-full w-px bg-gradient-to-b from-gold/0 via-gold/60 to-gold/0 md:block" />
           <div className="space-y-8">
             {milestones.map(({ title, description, image, icon: Icon }, index) => (

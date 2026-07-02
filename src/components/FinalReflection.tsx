@@ -8,9 +8,10 @@ export function FinalReflection() {
   return (
     <section className="relative overflow-hidden px-5 pb-44 pt-28 sm:px-8 lg:px-12">
       <div
-        className="pointer-events-none absolute inset-x-0 top-0 h-64 opacity-45"
-        style={{ backgroundImage: `url(${stageCurtains})`, backgroundSize: 'cover', backgroundPosition: 'top center' }}
+        className="pointer-events-none absolute inset-x-0 top-0 h-[26rem] opacity-[0.62] sm:h-[30rem]"
+        style={{ backgroundImage: `url(${stageCurtains})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'top center' }}
       />
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-[28rem] bg-gradient-to-b from-transparent via-transparent to-ink/86 sm:h-[32rem]" />
       <div
         className="pointer-events-none absolute inset-0 opacity-15 mix-blend-screen"
         style={{ backgroundImage: `url(${stars})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
