@@ -6,7 +6,7 @@ import { Reveal } from './Reveal'
 
 export function FinalReflection() {
   return (
-    <section className="relative overflow-hidden px-5 pb-16 pt-28 sm:px-8 lg:px-12">
+    <section className="relative overflow-hidden px-5 pb-44 pt-28 sm:px-8 lg:px-12">
       <div
         className="pointer-events-none absolute inset-x-0 top-0 h-64 opacity-45"
         style={{ backgroundImage: `url(${stageCurtains})`, backgroundSize: 'cover', backgroundPosition: 'top center' }}
@@ -38,6 +38,7 @@ export function FinalReflection() {
           <p className="mt-16 text-sm uppercase tracking-[0.28em] text-mist/58">
             Created as an interactive presentation.
           </p>
+          <p className="mt-4 text-base text-parchment/78">Fernando H. Santillan</p>
         </Reveal>
       </div>
     </section>

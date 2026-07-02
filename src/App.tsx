@@ -11,6 +11,7 @@ import { DifferentSection } from './components/DifferentSection'
 import { LessonsSection } from './components/LessonsSection'
 import { FinalReflection } from './components/FinalReflection'
 import { CursorGlow } from './components/CursorGlow'
+import { MusicPlayer } from './components/MusicPlayer'
 
 function App() {
   useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
         <DifferentSection />
         <LessonsSection />
         <FinalReflection />
+        <MusicPlayer />
       </Layout>
     </>
   )

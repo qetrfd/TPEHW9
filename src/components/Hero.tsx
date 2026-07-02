@@ -11,12 +11,13 @@ import { TypewriterText } from './TypewriterText'
 
 export function Hero() {
   return (
-    <section id="top" className="relative isolate min-h-screen overflow-hidden px-5 pb-20 pt-8 sm:px-8 lg:px-12">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-ink/78 via-ink/42 to-transparent lg:w-[64%]" />
+    <section id="top" className="relative isolate min-h-screen overflow-hidden px-5 pb-24 pt-8 sm:px-8 lg:px-12">
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-ink/82 via-ink/56 to-ink/18 lg:w-[64%]" />
       <div
-        className="pointer-events-none absolute inset-x-0 top-0 h-[24rem] opacity-85 sm:h-[32rem]"
-        style={{ backgroundImage: `url(${stageCurtains})`, backgroundSize: 'cover', backgroundPosition: 'top center' }}
+        className="pointer-events-none absolute inset-x-0 top-0 h-[26rem] opacity-[0.92] sm:h-[34rem] lg:h-[36rem]"
+        style={{ backgroundImage: `url(${stageCurtains})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat', backgroundPosition: 'top center' }}
       />
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-[30rem] bg-gradient-to-b from-transparent via-transparent to-ink/80 sm:h-[38rem]" />
       <div
         className="pointer-events-none absolute inset-0 opacity-15 mix-blend-screen"
         style={{ backgroundImage: `url(${stars})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
@@ -43,7 +44,7 @@ export function Hero() {
         className="pointer-events-none absolute inset-0 opacity-10"
         style={{ backgroundImage: `url(${paperTexture})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
       />
-      <div className="mx-auto grid min-h-[88vh] max-w-7xl items-end gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
+      <div className="mx-auto grid min-h-[88vh] max-w-7xl items-end gap-12 lg:grid-cols-[1.08fr_0.92fr] lg:items-center">
         <Reveal className="relative pt-28 sm:pt-32 lg:pt-36">
           <div className="mb-6 inline-flex items-center gap-3 rounded-full border border-gold/30 bg-ink/55 px-4 py-2 text-xs uppercase tracking-[0.3em] text-gold/90 backdrop-blur-sm">
             <Sparkles className="h-4 w-4" />
@@ -96,7 +97,7 @@ export function Hero() {
               aria-hidden="true"
             />
             <div className="absolute inset-x-0 bottom-0 h-36 bg-gradient-to-t from-ink via-ink/45 to-transparent" />
-            <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+            <div className="absolute bottom-0 left-0 right-0 z-[2] p-6 sm:p-8">
               <p className="text-xs uppercase tracking-[0.35em] text-gold/85">Stage entrance</p>
               <p className="mt-3 max-w-sm text-sm leading-7 text-mist/78">
                 Independent art that turns intensity, humor, and performance into a personal language.
