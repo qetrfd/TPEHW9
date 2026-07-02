@@ -59,10 +59,10 @@ export function TimelineSection() {
   return (
     <section id="timeline" className="relative overflow-hidden px-5 py-28 sm:px-8 lg:px-12">
       <div
-        className="pointer-events-none absolute inset-0 opacity-16"
+        className="thread-layer pointer-events-none absolute inset-0 opacity-[0.2]"
         style={{
           backgroundImage: `url(${redThread})`,
-          backgroundSize: '130% auto',
+          backgroundSize: '138% auto',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           transform: 'translateY(calc(var(--scroll-y, 0px) * 0.03))',
