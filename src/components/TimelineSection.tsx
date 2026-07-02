@@ -1,5 +1,6 @@
 import { Disc3, Radio, Theater } from 'lucide-react'
 import redThread from '../../assets/red_thread.png'
+import albumCover from '../../assets/album-cover.jpeg'
 import albumEverything from '../../assets/album_everything_is_a_lot.jpeg'
 import albumSelfIsh from '../../assets/album_self_ish.jpeg'
 import albumNormal from '../../assets/album_normal_album.jpg'
@@ -13,7 +14,7 @@ const milestones = [
   {
     title: 'Will Wood and the Tapeworms',
     description: 'A theatrical and chaotic creative era that introduced a bold independent voice.',
-    image: albumEverything,
+    image: albumCover,
     icon: Theater,
   },
   {
