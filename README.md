@@ -1,62 +1,131 @@
 # Will Wood: The Architect of His Own Chaos
 
-An interactive artistic presentation built as a website instead of a traditional school slideshow.
+An artistic interactive website about **Will Wood** as a role model with a dream job.
 
-## About
+This project was created as an alternative to a traditional school presentation. Instead of using slides, it presents the topic as a cinematic web experience inspired by vintage circus visuals, dark cabaret aesthetics, old paper textures, moon imagery, theatrical elements, surreal sketches, and an elegant black–cream–burgundy–gold color palette.
 
-This project presents **Will Wood as a role model and dream-job inspiration** through a cinematic scrolling web experience.
+## Live Demo
 
-The site explores:
+https://qetrfd.github.io/TPEHW9/
 
-- who he is
-- why he was chosen
-- his creative career timeline
-- his non-traditional learning path
-- his technical and soft skills
-- his dream job as an evolving artist
-- what makes him different
-- what can be learned from him
-- a final personal reflection
+## About the Project
 
-The visual style is inspired by:
+This website presents Will Wood as an independent artist, singer-songwriter, pianist, performer, storyteller, and creative thinker.
 
-- vintage circus
-- dark cabaret
-- theatrical stage design
-- old paper textures
-- moon imagery
-- surreal sketches
-- antique celestial details
+The page explores:
 
-## Stack
+- Who Will Wood is
+- Why he was chosen as a role model
+- His creative career timeline
+- His education and learning path
+- His technical and soft skills
+- His dream job
+- What makes him different
+- Lessons learned from his career
+- A final personal reflection about creativity and identity
+
+## Main Concept
+
+**“Will Wood: The Architect of His Own Chaos”**
+
+The project is designed to feel like walking through a strange theatrical notebook or an evidence board inside an old cabaret stage. It combines biography, reflection, career analysis, and personal inspiration in a visual format that feels more immersive than a normal presentation.
+
+## Sections
+
+1. **Hero**  
+   Introduces Will Wood as a role model for creativity, identity, and artistic freedom.
+
+2. **Who Is Will Wood?**  
+   Presents him as a singer-songwriter, pianist, composer, performer, and multidisciplinary artist.
+
+3. **Why I Chose Him**  
+   A personal reflection about authenticity, discipline, art, and identity.
+
+4. **Career Timeline**  
+   A theatrical evidence-board style timeline featuring major creative milestones.
+
+5. **Education & Learning Path**  
+   Explains his non-traditional artistic development through self-learning, performance, writing, collaboration, experimentation, and creative practice.
+
+6. **Skills**  
+   Divides his abilities into technical skills and soft skills.
+
+7. **Dream Job**  
+   Presents his dream job as “Living by Creating.”
+
+8. **What Makes Him Different?**  
+   Explores how his work refuses to fit into one genre or category.
+
+9. **What I Learn From Him**  
+   Highlights lessons about authenticity, discipline, originality, and success.
+
+10. **Final Reflection**  
+   Ends with a personal message about using creativity to build something meaningful.
+
+## Built With
 
 - React
 - TypeScript
 - Vite
 - Tailwind CSS
 - Lucide React
+- GitHub Pages
+- GitHub Actions
 
-## Open the site
+## Visual Style
 
-Live site:
+The design direction is based on:
 
-[Open the presentation](https://qetrfd.github.io/TPEHW9/)
+- Vintage circus
+- Dark cabaret
+- Old paper textures
+- Moon and celestial imagery
+- Theatrical stage elements
+- Handwritten notes
+- Surreal sketches
+- Black, cream, burgundy, dark brown, and antique gold
+- Cinematic scrolling
+- Elegant chaos with readable structure
 
-If the link shows a GitHub Pages error, enable **GitHub Pages -> Source: GitHub Actions** in the repository settings first, then rerun the deployment workflow.
+## Local Assets
 
-## Run locally
+The project uses only local assets from the repository. No external images are downloaded or hotlinked.
+
+Main visual assets include:
+
+- `hero-willwood.jpg`
+- `portrait-willwood.jpg`
+- `piano.png`
+- `moon.png`
+- `paper-texture.jpg`
+- `stage-curtains.png`
+- `notebook.png`
+- `red-thread.png`
+- `stars.png`
+- `typewriter.png`
+- `background-dark.jpg`
+- Album cover images
+- Surreal sketch assets such as the eye, flower, and rat
+
+## Features
+
+- Fully responsive layout
+- Cinematic hero section
+- Smooth scrolling
+- Scroll reveal animations
+- Subtle parallax elements
+- Hover cards
+- Timeline animation
+- Typewriter text effect
+- Cursor glow / spotlight effect
+- Artistic card-based sections
+- “Start Again” button that scrolls back to the top
+- GitHub Pages deployment workflow
+
+## Installation
+
+Clone the repository:
 
 ```bash
-npm install
-npm run dev
-```
-
-Then open:
-
-[http://127.0.0.1:4173/TPEHW9/](http://127.0.0.1:4173/TPEHW9/)
-
-## Build
-
-```bash
-npm run build
-```
+git clone https://github.com/qetrfd/TPEHW9.git
+cd TPEHW9
